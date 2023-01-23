@@ -1,0 +1,18 @@
+
+@mixin font(
+  $FontSize: 16px,
+  $linHeight: 1.14,
+  $fontWeight: 400,
+  $letSpacing: 0.02em
+) {
+  font-size: $FontSize;
+  line-height: $linHeight;
+  font-weight: $fontWeight;
+  letter-spacing: $letSpacing;
+}
+
+@mixin center($display: flex, $justContent: center, $alItems: center) {
+  display: $display;
+  justify-content: $justContent;
+  align-items: $alItems;
+}
